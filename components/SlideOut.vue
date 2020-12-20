@@ -31,6 +31,9 @@
           />
         </nuxt-link>
       </li>
+      <li class="sm-brand">
+        <nuxt-link to="/" exact>vanta</nuxt-link>
+      </li>
       <li class="bael-slideout-menu-item--small">
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li>

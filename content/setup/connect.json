@@ -1,20 +1,16 @@
 {
   "connectlinks": [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/jasperketone"
-    },
-    {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/jake-peterson-101/"
-    },
-    {
       "name": "Github",
-      "url": "https://github.com/jake-101"
+      "url": "https://github.com/fuesorg/vanta"
     },
     {
-      "name": "Unsplash",
-      "url": "https://unsplash.com/@jake101"
+      "name": "Twitter",
+      "url": "https://twitter.com/fuesorg"
+    },
+    {
+      "name": "Figma",
+      "url": "https://figma.com/@naval"
     }
   ]
 }

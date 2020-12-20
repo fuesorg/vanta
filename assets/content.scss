@@ -160,3 +160,49 @@
     padding: 1.125em;
   }
 }
+
+/* @navalmonga */
+
+.grey-md-bg {
+  background-color: #f1f1f1;
+}
+
+.brand-box {
+  background-color: #f1f1f1;
+  .sitename {
+    font-family: "IBM Plex Mono", sans-serif !important;
+    font-weight: 700 !important;
+    color: #111111 !important;
+    transition: all 0.22s linear;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  transition: all 0.22s linear;
+  &:hover {
+    background-color: #111111;
+    .sitename {
+      letter-spacing: 0.1rem;
+      color: #f1f1f1 !important;
+    }
+  }
+}
+
+.drk-text {
+  color: #111111;
+  &:hover {
+    color: #111111;
+  }
+}
+
+.sm-brand {
+  font-family: "IBM Plex Mono", sans-serif;
+  a {
+    color: #111111 !important;
+    &:hover {
+      color:#111111 !important;
+    }
+  }
+  text-transform: uppercase;
+  padding: 16px;
+}

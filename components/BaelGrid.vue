@@ -10,7 +10,7 @@
       >
         <div class="item xs-block xs-full-height xs-flex">
           <nuxt-link
-            class="xs-text-center xs-flex xs-full-height xs-flex-align-center xs-flex-justify-center xs-text-center"
+            class="xs-text-center xs-flex xs-full-height xs-flex-align-center xs-flex-justify-center xs-text-center drk-text"
             :to="p.path"
           >{{p.title}}</nuxt-link>
         </div>

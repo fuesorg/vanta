@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!sent" class="item">
-      <div class="footer__heading xs-mb2">Newsletter Signup</div>
+      <div class="footer__heading xs-mb2">News</div>
       <form @submit.prevent="processForm" action="/.netlify/functions/app" name="mailinglist">
         <input
           type="email"
@@ -45,3 +45,10 @@ export default {
   },
 };
 </script>
+
+<style>
+.button {
+  text-transform: uppercase;
+  color: #111111 !important;
+}
+</style>

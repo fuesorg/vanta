@@ -1,16 +1,27 @@
-# Bael Netlify CMS Template
+<h1 align="center">
+  Vanta
+</h1>
 
-![Bael](https://i.imgur.com/e1zmiB2.jpg "Bael CMS Blog Template")
+<p align="center">
+  <a href="https://vercel.com/dashboard/fues/projects" target="_blank">
+    <img src="https://assets.vercel.com/image/upload/front/favicon/round-2/144x144.png" height="24px" alt="vercel badge">
+  </a>
+  &nbsp;
+  <a href="https://github.com/fuesorg/nextburger/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="nextburger: This project is released under the MIT license." />
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
+</p>
 
-> Bael is a free template that gives you an easy way to start a blog that uses modern technologies like static-site JAMstack architecture, CSS grid layout, responsive design, and fuzzy search — all wrapped up in a brutalist aesthetic.
+> Vanta is a free Nuxt template that gives you an easy way to start a blog + store that uses modern technologies like Stripe, static-site JAMstack architecture, CSS grid layout, responsive design, and fuzzy search — based on the Bael brutalist aesthetic.
 
-## Info
+## Quickstart
 
-Bael runs using [Nuxt.js](https://nuxtjs.org), [Vue.js](https://vuejs.org), [Netlify CMS](https://netlifycms.org), and is hosted by [Netlify](https://netlify.com). Bael requires an account with Netlify and Github/Bitbucket to deploy. Made by [Jake 101](https://jake101.com)
+Vanta runs using [Stripe](https://stripe.com), [Nuxt.js](https://nuxtjs.org), [Vue.js](https://vuejs.org), and deployed with [Vercel](https://vercel.com).
 
-## Deploy to Netlify
+## Deploy with Vercel
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jake-101/bael-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world)
 
 
 ## Build Setup
@@ -20,7 +31,7 @@ Bael runs using [Nuxt.js](https://nuxtjs.org), [Vue.js](https://vuejs.org), [Net
 $ npm install # Or yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ npm run dev # Or yarn dev
 
 # build for production and launch server
 $ npm run build

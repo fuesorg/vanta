@@ -40,21 +40,20 @@
           <div class="footer__heading xs-mb2">Deploy</div>
 
           <a
-            href="https://app.netlify.com/start/deploy?repository=https://github.com/jake-101/bael-template"
+            href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world"
           >
             <img
-              style="height:29px;width:auto;"
-              src="~/assets/deploy.svg"
-              title="Deploy to Netlify"
+              style="height:24px;width:auto;"
+              src="https://vercel.com/button"
+              title="Deploy with Vercel"
             />
           </a>
         </div>
       </div>
       <div class="c-12 xs-text-left xs-p2 xs-border xs-border-right-none xs-border-bottom-none">
         <div class="item xs-text-6">
-          <a href="https://github.com/jake-101/bael-template">Bael</a>
-          <span class="small-txt" v-if="version">{{version}}</span>, An open source design by
-          <a href="https://jake101.com">jake101</a>
+          © 2020 <a href="https://github.com/fuesorg/vanta">Vanta</a>
+          <span class="small-txt" v-if="version">{{version}}</span>, All rights reserved.
         </div>
       </div>
     </div>
@@ -114,5 +113,12 @@ footer .item:hover .footer__heading {
 }
 .pagination__button--disabled {
   pointer-events: none;
+}
+
+.list-unstyled a {
+  color: #111111;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
 }
 </style>

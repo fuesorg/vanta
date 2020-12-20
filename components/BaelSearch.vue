@@ -61,7 +61,7 @@ input.search {
   top: 1.4rem;
   z-index: 9999;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-  background: #fff;
+  background: #f1f1f1;
 }
 .searchicon {
   height: 18px;
